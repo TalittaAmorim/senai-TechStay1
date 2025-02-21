@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Prata&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+body{
+  
+    background: url('imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    box-sizing: border-box;
+    width:100vw;
+    overflow: hidden;
+}
+
+nav{
+    color: white;
+    width: 100vw;
+    height:80px;
+    background-color:rgb(120, 120, 161);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    transition: .4s;
+    padding-right: 2em;
+    font-size: 17px;
+}
+nav > h1{
+    margin-left: 8px;
+    padding: 40px;
+    font-size: 2vh;
+    font-weight: 800;
+    line-height: 20px;
+    
+}
+nav ul{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.1rem;
+}
+
+a{
+    margin: 14px;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    border: 1px solid rgb(235, 235, 255);
+    border-radius: 5px;
+    color: #FFFf;
+}
+.diferente{
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+#div-formC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    max-width: 90%;
+    gap: 30px;
+    border: 2px solid rgb(130, 130, 172);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#button-enviar:hover{
+
+    background-color: #fff;
+    color: rgb(120, 120, 161);
+    border: 2px solid rgb(120, 120, 161);
+}
+
+
+.campos{
+    font-size: 0.8em;
+    color: button-enviar;
+    outline: none;
+    border: none;
+    width: 88%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #7c7c7c2b;
+}
+
+#button-enviar{
+    margin-top: 10px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(120, 120, 161);
+    cursor: pointer;
+}

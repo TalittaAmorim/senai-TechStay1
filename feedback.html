@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Cadastro do cliente</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>TechStay</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Cadastro</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+                <li><a href="feedback.html" class="diferente">Feedback</a></li>
+                <li><a href="feedback.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <form>
+            <div id="div-formC"> 
+                <h2>Nos conte como foi sua experiência!</h2>
+                <div class="nome-div">
+                    <label for="fnome">Nome:</label>
+                    <input type="text" class="campos" id="fnome" > 
+                </div>
+                <div class="comentario-div">
+                    <label for="comentario">Comentário:</label>
+                    <input type="text" class="campos" id="fnome" > 
+                </div>
+                <div class="sastifacao-div">
+                    <label for="sastifacao">Nível de Sastifação:</label>
+                    <input type="number" class="campos" id="sastifacao" min="1" max="10" > 
+                </div>
+
+
+                
+                <input type="submit" value="enviar" id="button-enviar">
+            </div> 
+            
+        </form>
+    
+    </div>
+</body>
+</html>

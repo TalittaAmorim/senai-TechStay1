@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Prata&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+body{
+  
+    background: url('imgs/empresa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    box-sizing: border-box;
+    width:100vw;
+    overflow: hidden;
+}
+
+nav{
+    color: rgb(120, 120, 161);
+    width: 100vw;
+    height:80px;
+    background-color:#ffffff;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    transition: .4s;
+    padding-right: 2em;
+    font-size: 17px;
+}
+nav > h1{
+    margin-left: 8px;
+    padding: 40px;
+    font-size: 2vh;
+    font-weight: 800;
+    line-height: 20px;
+    
+}
+nav ul{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.1rem;
+}
+
+a{
+    margin: 14px;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(120, 120, 161); 
+    border-radius: 10px;
+}
+
+a:hover{
+    border: 1px solid rgb(120, 120, 161);
+    border-radius: 5px;
+    color: rgb(120, 120, 161);
+}
+.diferente{
+    background-color: rgb(120, 120, 161);
+    border-radius: 5px;
+    color: black;
+}
+
+main{
+    height: 80vh;
+    
+}
+main, aside{
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.text{
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    text-align: center;
+    color: #dfe2eb;
+}
+.text > h1{
+    font-size: 3.1em;
+    font-family: 'Verdana', cursive;
+}
+.text > a {
+    border: none;
+    background-color:rgb(120, 120, 161); 
+    width: 40%;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+.text > a:hover
+{
+  color: #fff;
+  background-color: #3381b8;
+}

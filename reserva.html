@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Reserva</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>TechStay</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html" >Cadastro</a></li>
+                <li><a href="reserva.html" class="diferente" >Reserva</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="feedback.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="/feedback">
+            <div id="div-formC">
+                <h2>Reserve agora!</h2>
+
+                <div class="dataDeReseva">
+                    <label for="fdia">Data da reserva:</label>
+                    <input type="date" class="campos" required>
+                </div>
+                <div class="hora-div">
+                    <label for="fhora">Horário de reserva:</label>
+                    <input type="time" id="fhora" class="campos" required>
+                </div>
+                
+                <div class="numero-de-participantes" >
+                    <label for="numP">Número de participantes:</label>
+                    <input type="number"class="campos" id="numP" required> 
+                </div>
+
+                <div> 
+                    <label for="reserva">Tipo de reserva:</label>
+                    <select name="Tipo de reserva" id="reserva">
+                        <option value="individual">Individual</option>
+                        <option value="reuniao">Reunião</option>
+                        <option value="treinamento">Treinamento</option>
+                    </select>
+                </div>  
+                <input type="submit" value="enviar" id="button-enviar">  
+            </div>
+        </form>
+    
+    </div>
+</body>
+</html>
